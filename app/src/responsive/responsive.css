@@ -1,0 +1,413 @@
+/*Header*/
+@media screen and (max-width: 888px) {
+    
+    .header__wrapper nav ul li {
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .header__burger {
+        display: block;
+        margin-right: 25px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-active {
+        display: block;
+    }
+
+    .fa-search {
+        font-size: 31px !important;
+        position: absolute;
+        top: 39px;
+        right: 0;
+    }
+
+    .header__wrapper {
+        display: block;
+    }
+
+    .nav__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .header__wrapper nav ul li {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+
+    .header__wrapper nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .header__wrapper nav ul {
+        display: block;
+    }
+
+    .header__burger {
+        position: absolute;
+        top: 34px;
+        right: 27px;
+    }
+
+}
+
+/*MainSlider*/
+
+@media screen and (max-width: 1400px) {
+
+    .slider__text-title {
+        margin-bottom: 26px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .slider__text-title h2 {
+        font-size: 40px;
+    }
+
+    .fa-angle-down {
+        margin-top: 50px !important;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .fa-angle-down {
+        margin-top: 9px !important;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
+        width: 210px;
+        font-size: 17px;
+        padding: 10px 36px;
+    }
+
+    .btn_slider-hireIsNow {
+        margin: 9px 0px 0px 0px;
+    }
+
+    .slider__text-title {
+        margin-bottom: 10px;
+    }
+
+    .slider__btn-wrapper {
+        max-width: 217px;
+    }
+
+    .slider__text-title h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .slider__text-title p {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 712px) {
+
+    .slider__text-title p {
+        font-size: 14px;
+    }
+
+    .slider__text-title h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 185px;
+    }
+
+    .slider__btn-wrapper {
+        max-width: 190px;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+
+    .slider__text-title {
+        margin-bottom: 0px;
+    }
+
+    .slider__text-title h2 {
+        line-height: opx;
+    }
+
+    .fa-angle-down {
+        display: none !important;
+    }
+
+    .slider__text-title h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .slider__text-title p {
+        line-height: 22px;
+    }
+
+    .btn {
+        font-size: 12px;
+        width: 173px;
+        padding: 4px 36px;
+        line-height: 15px;
+    }
+
+    .slider__btn-wrapper {
+        max-width: 178px;
+    }
+
+    .slider__text-title {
+        white-space: normal;
+    }
+
+}
+
+/*AboutUs*/
+@media screen and (max-width: 1180px) {
+
+    .about__us-cards-wrapper {
+        display: block;
+    }
+
+    .about__us-card:not(:last-child) {
+        margin: 0px 0px 65px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .about__us-title {
+        margin: 0px 15px 111px;
+    }
+
+}
+
+/*OurServices*/
+@media screen and (max-width: 1400px) {
+
+    .our__services-card {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .our__services-content {
+        justify-content: space-evenly;
+    }
+
+    .our__services-card:nth-child(4),
+    .our__services-card:nth-child(5),
+    .our__services-card:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .our__services-card {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 250px;
+    }
+
+}
+
+/*LatestWorks*/
+@media screen and (max-width: 1400px) {
+
+    .latest__works-title {
+        margin: 0px 25px 112px;
+    }
+
+    .latest__works-view {
+        margin: 0px 25px 115px;
+    }
+
+    .portfolio__btn {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .latest__works-view-puctures {
+        justify-content: space-evenly;
+    }
+
+    .portfolio__btn:nth-child(4),
+    .portfolio__btn:nth-child(5),
+    .portfolio__btn:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .works__view-button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .works__view-button:not(:last-child) {
+        margin-right: auto;
+    }
+
+    .latest__works-view {
+        margin: 0px 25px 12px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .portfolio__btn img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/*PricingPlan*/
+@media screen and (max-width: 1320px) {
+
+    .pricing__plan-title {
+        margin: 0px 25px 123px;
+    }
+
+    .pricing__plan-order {
+        display: block;
+        
+    }
+
+    .pricing__plan-order-card {
+        margin: 0 auto 41px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .pricing__plan-order-card {
+        max-width: 280px;
+        padding: 44px 48px 60px;
+    }
+
+}
+
+/*MultipleItems*/
+@media screen and (max-width: 1450px) {
+    
+    .slick-slide {
+        max-width: inherit; 
+        margin: 0px;
+    }
+
+    .slick-slide img {
+        margin: 0 auto;
+    }
+
+    .slick-slider {
+        margin: 0px 25px 0px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .slick-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/*Blog*/
+@media screen and (max-width: 1400px) {
+
+    .blog__title {
+        margin: 0px 25px 125px;
+    }
+
+    .blog__main-news {
+        display: block;
+        margin: 0px 25px;
+    }
+
+    .blog__main-seo {
+        text-align: center;
+        width: inherit;
+        margin: 0px 0px 53px;
+    }
+
+    .blog__main-news-right > .blog__main-seo {
+        margin: 0px 0px 53px 0px; 
+    }
+
+    .blog__main-news img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .seo-cal-and-date span{
+        display: block;
+    }
+
+    .seo-cal-and-date span:first-child {
+        margin-right: 0;
+    }
+
+}
+
+/*ContactUs*/
+@media screen and (max-width: 1200px) {
+
+    .contact__us-title {
+        margin: 0px 25px 95px;
+    }
+
+    .contact__us-contacts-cards {
+        display: block;
+    }
+
+    .contact__us-card {
+        margin: 0 auto;
+        margin-bottom: 53px;
+    }
+
+    .contact__us-form-fields {
+        display: block;
+    }
+
+    .contact__us-form-fields input {
+        max-width: inherit;
+    }
+
+    .form__field-one {
+        margin-bottom: 23px;
+    }
+
+    .contact__us-wrapper {
+        padding: 123px 25px 110px;
+    }
+
+}
